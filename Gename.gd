@@ -1,6 +1,7 @@
 extends Object
 class_name Gename
 
+var oneWord = true
 var maleChance: float = 0.5
 var neutralEnable: bool = true
 var neutralChance: float = 0.1
@@ -138,7 +139,7 @@ func next() -> String:
 	var name = ""
 	var male = maleChance > _rng.randf()
 	var neutral = neutralEnable and neutralChance > _rng.randf()
-	if preChance > _rng.randf():
+	if oneWord == false and preChance > _rng.randf():
 		name += _neutralPre() if neutral else _malePre() if male else _femalePre()
 		name += " "
 		postChance += 0.5
@@ -153,7 +154,7 @@ func next() -> String:
 		name += _neutralFinish() if neutral else _maleFinish() if male else _femaleFinish()
 	else:
 		name += _neutralName() if neutral else _maleName() if male else _femaleName()
-	if postChance > _rng.randf():
+	if oneWord == false and postChance > _rng.randf():
 		name += " "
 		name += _neutralName() if neutral else _maleName() if male else _femaleName()
 	return name
