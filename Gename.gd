@@ -1,115 +1,118 @@
 extends Object
 class_name Gename
 
-var oneWord = true
-var maleChance: float = 0.5
-var neutralEnable: bool = true
-var neutralChance: float = 0.1
-var generatedEnable: bool = true
-var generatedChance: float = 0.5
-var preChance: float = 0.333
-var vowelChance: float = 0.8
-var middle0Chance: float = 0.3
-var middle1Chance: float = 0.1
-var postChance: float = 0.22
-
+var oneWord := true
+var maleChance := 0.5
+var neutralEnable := true
+var neutralChance := 0.1
+var generatedEnable := true
+var generatedChance := 0.5
+var preChance := 0.333
+var vowelChance := 0.8
+var middle0Chance := 0.3
+var middle1Chance := 0.1
+var postChance := 0.22
 const _vowel := ['a', 'e', 'i', 'o', 'u', 'y']
-
 var _data := {
 	"male": { "name": [], "start": [], "middle": [], "finish": [], "pre": [], "post": [] },
 	"female": { "name": [], "start": [], "middle": [], "finish": [], "pre": [], "post": [] },
 	"neutral": { "name": [], "start": [], "middle": [], "finish": [], "pre": [], "post": [] }
 }
-
 var _rng := RandomNumberGenerator.new()
 
 func _init() -> void:
 	_rng.randomize()
-	var file = File.new()
-	file.open("res://Gename/Name.csv", file.READ)
+	var file := File.new()
+	if file.open("res://Gename/Name.csv", file.READ) != OK:
+		print("Error reading Name.csv.")
+		return
 	while !file.eof_reached():
-		var csv = file.get_csv_line()
-		var size = csv.size()
+		var csv := file.get_csv_line()
+		var size := csv.size()
 		if size > 0:
-			var value = csv[0]
+			var value := csv[0]
 			if value != "":
 				_data.male.name.append(value)
 		if size > 1:
-			var value = csv[1]
+			var value := csv[1]
 			if value != "":
 				_data.female.name.append(value)
 		if size > 2:
-			var value = csv[2]
+			var value := csv[2]
 			if value != "":
 				_data.neutral.name.append(value)
 	file.close()
-	file.open("res://Gename/Syllable.csv", file.READ)
+	if file.open("res://Gename/Syllable.csv", file.READ) != OK:
+		print("Error reading Syllable.csv.")
+		return
 	while !file.eof_reached():
-		var csv = file.get_csv_line()
-		var size = csv.size()
+		var csv := file.get_csv_line()
+		var size := csv.size()
 		if size > 0:
-			var value = csv[0]
+			var value := csv[0]
 			if value != "":
 				_data.male.start.append(value)
 		if size > 1:
-			var value = csv[1]
+			var value := csv[1]
 			if value != "":
 				_data.male.middle.append(value)
 		if size > 2:
-			var value = csv[2]
+			var value := csv[2]
 			if value != "":
 				_data.male.finish.append(value)
 		if size > 3:
-			var value = csv[3]
+			var value := csv[3]
 			if value != "":
 				_data.female.start.append(value)
 		if size > 4:
-			var value = csv[4]
+			var value := csv[4]
 			if value != "":
 				_data.female.middle.append(value)
 		if size > 5:
-			var value = csv[5]
+			var value := csv[5]
 			if value != "":
 				_data.female.finish.append(value)
 		if size > 6:
-			var value = csv[6]
+			var value := csv[6]
 			if value != "":
 				_data.neutral.start.append(value)
 		if size > 7:
-			var value = csv[7]
+			var value := csv[7]
 			if value != "":
 				_data.neutral.middle.append(value)
 		if size > 8:
-			var value = csv[8]
+			var value := csv[8]
 			if value != "":
 				_data.neutral.finish.append(value)
 	file.close()
-	file.open("res://Gename/Title.csv", file.READ)
+	if file.open("res://Gename/Title.csv", file.READ) != OK:
+		print("Error reading Title.csv.")
+		return
 	while !file.eof_reached():
-		var csv = file.get_csv_line()
-		var size = csv.size()
+		var csv := file.get_csv_line()
+		var size := csv.size()
 		if size > 0:
-			var value = csv[0]
+			var value := csv[0]
 			if value != "":
 				_data.male.pre.append(value)
 		if size > 1:
-			var value = csv[1]
+			var value := csv[1]
 			if value != "":
 				_data.male.post.append(value)
 		if size > 2:
-			var value = csv[2]
+			var value := csv[2]
 			if value != "":
 				_data.female.pre.append(value)
 		if size > 3:
-			var value = csv[3]
+			var value := csv[3]
 			if value != "":
 				_data.female.post.append(value)
 		if size > 4:
-			var value = csv[4]
+			var value := csv[4]
 			if value != "":
 				_data.neutral.pre.append(value)
 		if size > 5:
-			var value = csv[5]
+			var value := csv[5]
 			if value != "":
 				_data.neutral.post.append(value)
 	file.close()
@@ -136,9 +139,9 @@ func _femalePost() -> String: return _random(_data.female.post)
 func _neutralPost() -> String: return _random(_data.neutral.post)
 
 func next() -> String:
-	var name = ""
-	var male = maleChance > _rng.randf()
-	var neutral = neutralEnable and neutralChance > _rng.randf()
+	var name := ""
+	var male := maleChance > _rng.randf()
+	var neutral := neutralEnable and neutralChance > _rng.randf()
 	if oneWord == false and preChance > _rng.randf():
 		name += _neutralPre() if neutral else _malePre() if male else _femalePre()
 		name += " "
