@@ -12,6 +12,9 @@ var vowelChance := 0.8
 var middle0Chance := 0.3
 var middle1Chance := 0.1
 var postChance := 0.22
+const _namePath := "res://Gename/Name.csv"
+const _syllablePath := "res://Gename/Syllable.csv"
+const _titlePath := "res://Gename/Title.csv"
 const _vowel := ['a', 'e', 'i', 'o', 'u', 'y']
 var _data := {
 	"male": { "name": [], "start": [], "middle": [], "finish": [], "pre": [], "post": [] },
@@ -23,8 +26,8 @@ var _rng := RandomNumberGenerator.new()
 func _init() -> void:
 	_rng.randomize()
 	var file := File.new()
-	if file.open("res://Gename/Name.csv", file.READ) != OK:
-		print("Error reading Name.csv.")
+	if file.open(_namePath, file.READ) != OK:
+		print("Error: open: " + _namePath)
 		return
 	while !file.eof_reached():
 		var csv := file.get_csv_line()
@@ -42,8 +45,8 @@ func _init() -> void:
 			if value != "":
 				_data.neutral.name.append(value)
 	file.close()
-	if file.open("res://Gename/Syllable.csv", file.READ) != OK:
-		print("Error reading Syllable.csv.")
+	if file.open(_syllablePath, file.READ) != OK:
+		print("Error: open: " + _syllablePath)
 		return
 	while !file.eof_reached():
 		var csv := file.get_csv_line()
@@ -85,8 +88,8 @@ func _init() -> void:
 			if value != "":
 				_data.neutral.finish.append(value)
 	file.close()
-	if file.open("res://Gename/Title.csv", file.READ) != OK:
-		print("Error reading Title.csv.")
+	if file.open(_titlePath, file.READ) != OK:
+		print("Error: open: " + _titlePath)
 		return
 	while !file.eof_reached():
 		var csv := file.get_csv_line()
