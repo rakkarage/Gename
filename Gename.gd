@@ -120,8 +120,8 @@ func _malePre() -> String:	return _random(_data.male.pre)
 func _femalePre() -> String: return _random(_data.female.pre)
 func _neutralPre() -> String: return _random(_data.neutral.pre)
 func _maleStart() -> String: return _random(_data.male.start)
-func _femaleStart() -> String: return _random(_data.female.pre)
-func _neutralStart() -> String: return _random(_data.neutral.pre)
+func _femaleStart() -> String: return _random(_data.female.start)
+func _neutralStart() -> String: return _random(_data.neutral.start)
 func _maleMiddle() -> String: return _random(_data.male.middle)
 func _femaleMiddle() -> String: return _random(_data.female.middle)
 func _neutralMiddle() -> String: return _random(_data.neutral.middle)
@@ -156,5 +156,5 @@ func next() -> String:
 		name += _neutralName() if neutral else _maleName() if male else _femaleName()
 	if oneWord == false and postChance > _rng.randf():
 		name += " "
-		name += _neutralName() if neutral else _maleName() if male else _femaleName()
+		name += _neutralPost() if neutral else _malePost() if male else _femalePost()
 	return name
