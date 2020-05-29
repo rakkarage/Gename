@@ -27,7 +27,7 @@ func _init() -> void:
 	_rng.randomize()
 	var file := File.new()
 	if file.open(_namePath, file.READ) != OK:
-		print("Error: open: " + _namePath)
+		print_debug("Error: open: " + _namePath)
 		return
 	while !file.eof_reached():
 		var csv := file.get_csv_line()
@@ -46,7 +46,7 @@ func _init() -> void:
 				_data.neutral.name.append(value)
 	file.close()
 	if file.open(_syllablePath, file.READ) != OK:
-		print("Error: open: " + _syllablePath)
+		print_debug("Error: open: " + _syllablePath)
 		return
 	while !file.eof_reached():
 		var csv := file.get_csv_line()
@@ -89,7 +89,7 @@ func _init() -> void:
 				_data.neutral.finish.append(value)
 	file.close()
 	if file.open(_titlePath, file.READ) != OK:
-		print("Error: open: " + _titlePath)
+		print_debug("Error: open: " + _titlePath)
 		return
 	while !file.eof_reached():
 		var csv := file.get_csv_line()
