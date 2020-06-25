@@ -12,9 +12,9 @@ var vowelChance := 0.8
 var middle0Chance := 0.3
 var middle1Chance := 0.1
 var postChance := 0.22
-const _namePath := "res://Gename/Name.csv"
-const _syllablePath := "res://Gename/Syllable.csv"
-const _titlePath := "res://Gename/Title.csv"
+const _namePath := "res://Gename/Name.txt"
+const _syllablePath := "res://Gename/Syllable.txt"
+const _titlePath := "res://Gename/Title.txt"
 const _vowel := ['a', 'e', 'i', 'o', 'u', 'y']
 var _data := {
 	"male": { "name": [], "start": [], "middle": [], "finish": [], "pre": [], "post": [] },
