@@ -121,7 +121,8 @@ func _init() -> void:
 	file.close()
 
 func _random(array: Array) -> String:
-	return array[_rng.randi() % array.size()]
+	var size := array.size()
+	return "" if size == 0 else _rng.randi() % size
 func _malePre() -> String:	return _random(_data.male.pre)
 func _femalePre() -> String: return _random(_data.female.pre)
 func _neutralPre() -> String: return _random(_data.neutral.pre)
