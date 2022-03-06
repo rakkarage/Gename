@@ -12,6 +12,7 @@ var vowelChance := 0.8
 var middle0Chance := 0.3
 var middle1Chance := 0.1
 var postChance := 0.22
+const _error := "Error: "
 const _namePath := "res://Gename/Name.txt"
 const _syllablePath := "res://Gename/Syllable.txt"
 const _titlePath := "res://Gename/Title.txt"
@@ -27,7 +28,7 @@ func _init() -> void:
 	_rng.randomize()
 	var file := File.new()
 	if file.open(_namePath, file.READ) != OK:
-		print_debug("Error: open: " + _namePath)
+		print_debug(_error + _namePath)
 		return
 	while !file.eof_reached():
 		var csv := file.get_csv_line()
@@ -46,7 +47,7 @@ func _init() -> void:
 				_data.neutral.name.append(value)
 	file.close()
 	if file.open(_syllablePath, file.READ) != OK:
-		print_debug("Error: open: " + _syllablePath)
+		print_debug(_error + _syllablePath)
 		return
 	while !file.eof_reached():
 		var csv := file.get_csv_line()
@@ -89,7 +90,7 @@ func _init() -> void:
 				_data.neutral.finish.append(value)
 	file.close()
 	if file.open(_titlePath, file.READ) != OK:
-		print_debug("Error: open: " + _titlePath)
+		print_debug(_error + _titlePath)
 		return
 	while !file.eof_reached():
 		var csv := file.get_csv_line()
