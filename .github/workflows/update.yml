@@ -1,9 +1,9 @@
 on:
   workflow_dispatch:
 env:
-  PAGE1: https://docs.google.com/spreadsheets/d/1enKiw6l1aftQ655TJDW0_vcrEmxubOelNhGOQ27iGXI/edit#gid=0
-  PAGE2: https://docs.google.com/spreadsheets/d/1enKiw6l1aftQ655TJDW0_vcrEmxubOelNhGOQ27iGXI/edit#gid=326391601
-  PAGE3: https://docs.google.com/spreadsheets/d/1enKiw6l1aftQ655TJDW0_vcrEmxubOelNhGOQ27iGXI/edit#gid=308678360
+  PAGE1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=0&single=true&output=csv
+  PAGE2: https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=326391601&single=true&output=csv
+  PAGE3: https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=308678360&single=true&output=csv
 jobs:
   update:
     runs-on: ubuntu-latest
