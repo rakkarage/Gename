@@ -1,9 +1,5 @@
 on:
   workflow_dispatch:
-env:
-  PAGE1: https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=0&single=true&output=csv
-  PAGE2: https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=326391601&single=true&output=csv
-  PAGE3: https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=308678360&single=true&output=csv
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -11,15 +7,15 @@ jobs:
       - uses: actions/checkout@v2
       - uses: githubocto/flat@v3
         with:
-          http_url: $PAGE1
+          http_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=0&single=true&output=csv"
           downloaded_filename: Name.txt
       - uses: githubocto/flat@v3
         with:
-          http_url: $PAGE2
+          http_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=326391601&single=true&output=csv"
           downloaded_filename: Syllable.txt
       - uses: githubocto/flat@v3
         with:
-          http_url: $PAGE3
+          http_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=308678360&single=true&output=csv"
           downloaded_filename: Title.txt
       - uses: peter-evans/create-pull-request@v3
         with:
