@@ -1,4 +1,3 @@
-extends Object
 class_name Gename
 
 var oneWord := true
@@ -124,7 +123,7 @@ func _init() -> void:
 func _random(array: Array) -> String:
 	var size := array.size()
 	return "" if size == 0 else array[_rng.randi() % size]
-func _malePre() -> String:	return _random(_data.male.pre)
+func _malePre() -> String: return _random(_data.male.pre)
 func _femalePre() -> String: return _random(_data.female.pre)
 func _neutralPre() -> String: return _random(_data.neutral.pre)
 func _maleStart() -> String: return _random(_data.male.start)
