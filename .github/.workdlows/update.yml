@@ -1,0 +1,27 @@
+on:
+  workflow_dispatch:
+env:
+  PAGE1: https://docs.google.com/spreadsheets/d/1enKiw6l1aftQ655TJDW0_vcrEmxubOelNhGOQ27iGXI/edit#gid=0
+  PAGE2: https://docs.google.com/spreadsheets/d/1enKiw6l1aftQ655TJDW0_vcrEmxubOelNhGOQ27iGXI/edit#gid=326391601
+  PAGE3: https://docs.google.com/spreadsheets/d/1enKiw6l1aftQ655TJDW0_vcrEmxubOelNhGOQ27iGXI/edit#gid=308678360
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: githubocto/flat@v3
+        with:
+          http_url: $PAGE1
+          downloaded_filename: Name.txt
+      - uses: githubocto/flat@v3
+        with:
+          http_url: $PAGE2
+          downloaded_filename: Syllable.txt
+      - uses: githubocto/flat@v3
+        with:
+          http_url: $PAGE3
+          downloaded_filename: Title.txt
+      - uses: peter-evans/create-pull-request@v3
+        with:
+          title: Update Data
+          branch-suffix: timestamp
