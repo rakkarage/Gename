@@ -1,208 +1,480 @@
 Archduke,the Bastard,Archduchess,the Amazon,Adept,I
-Archon,the Eunuch,Aunt,the Ample,Adjutant,II
-Arci Dux,the Fallen Hero,Babu,the Beautiful,Adventurer,III
-Baba,the Fancy Lad,Baroness,the Bitch,Advocate,IV
-Baron,the Gigalo,Concubine,the Black Widow,Agent,IX
-Bro,the Groom,Countess,the Bride,Aide,Junior
-Brother,the Handsome,Courtesan,the Crone,Air Keeper,of the Air
-Caliph,the Hero,Dame,the Doll,Alpha,of the Dark
-Count,the Hunk,Damsel,the Fallen Heroine,Ambassador,of the Earth
-Courtier,the Hunky,Dancer,the Fancy Lass,Apothecary,of the East
-Daddy,the Hunter,Darling,the Flower,Archaeologist,of the Fire
-Dude,the Kid,Dutchess,the Hag,Archenemy,of the Ice
-Duke,the Lad,Empress,the Harlot,Architect,of the Light
-Dux,the Lion,Enchantress,the Heroine,Artist,of the North
-Emperor,the Macho,Gentlewoman,the Huntress,Assistant,of the South
-Father,the Man,Grand Duchess,the Lass,Attendant,of the West
-Gentleman,the Manly,Grandmother,the Lioness,Bailiff,Senior
-Grand Duke,the Old Hero,Lady,the Lovely,Banker,the Absurd
-Grandfather,the Rock,Madam,the Old Heroine,Big,the Alive
-Guy,the Stone,Maid,the Perky,Blood Guard,the Angry
-Imperator,the Stud,Maiden,the Pert,Boss,the Annoyed
-King,the Tiger,Mama,the Pink,Bouncer,the Antisocial
-King Regent,the Young Hero,Marquise,the Pretty,Brigadier,the Arrogant
-Mac,the Young Lad,Matriarch,the Ravishing,Brigand,the Awesome
-Magnus Dux,,Matron,the Rose,Cadet,the Barren
-Mak,,Miss,the Sexy,Cannoneer,the Befouler
-Marquis,,Missus,the Tigress,Captain,the Believer
-Master,,Mistress,the Vixen,Captive,the Bender
-Max,,Mother,the Wench,Captor,the Benefactor
-Mister,,Nanny,the White Widow,Cartographer,the Bent
-Nobleman,,Noblewoman,the Whore,Centurion,the Bitter
-Old Man,,Old Lady,the Womanly,Chairman,the Black
-Papa,,Princess,the Young Heroine,Champion,the Black Hand
-Patriarch,,Princess Regent,the Young Lass,Chancellor,the Blasted
-Prince,,Prophetess,,Chaperon,the Bloody
-Prince Regent,,Queen,,Chef,the Blue
-Proconsul,,Queen Regent,,Chief,the Blue Hand
-Prophet,,Shieldmaiden,,Clerk,the Blunt
-Rex,,Sister,,Coach,the Bold
-Sir,,Squiress,,Coder,the Broken
-Squire,,Valkyrie,,Collector,the Bronze
-Suitor,,Viscountess,,Commander,the Brutal
-Uncle,,Widow,,Conductor,the Cannon
-Viscount,,,,Conqueror,the Claw
-,,,,Consort,the Closed
-,,,,Contender,the Clumsy
-,,,,Corporal,the Cold
-,,,,Counselor,the Cook
-,,,,Craftsman,the Cool
-,,,,Crazy,the Copper
-,,,,Crusader,the Corrupt
-,,,,Curator,the Courageous
-,,,,Dac,the Cruel
-,,,,Dak,the Cursed
-,,,,Dark Keeper,the Dainty
-,,,,Dax,the Daring
-,,,,Deckhand,the Dead
-,,,,Designer,the Deadly
-,,,,Dictator,the Deluded
-,,,,Director,the Depraved
-,,,,Disciple,the Dervish
-,,,,Dishwasher,the Destroyer
-,,,,Doctor,the Disturbed
-,,,,Duelest,the Doomed
-,,,,Dungeon Master,the Dreaded
-,,,,Dungeoneer,the Drunk
-,,,,Earth Keeper,the Dry
-,,,,Editor,the Dull
-,,,,Elder,the Dumb
-,,,,Elite,the Dummy
-,,,,Enemy,the Eclectic
-,,,,Engineer,the Enchanted
-,,,,Envoy,the Enlightened
-,,,,Escort,the Excellent
-,,,,Executioner,the Extraordinary
-,,,,Executor,the Exuberant
-,,,,Exhibitor,the Fair
-,,,,Explorer,the Fallen
-,,,,Farmer,the Famous
-,,,,Fellow,the Fancy
-,,,,Field Marshal,the Fascinating
-,,,,Fire Keeper,the Fast
-,,,,First Sergeant,the Fat
-,,,,Foreman,the Feared
-,,,,Friend,the Fearless
-,,,,Gatekeeper,the Fertile
-,,,,General,the First
-,,,,Gladiator,the Fist
-,,,,Governor,the Fixer
-,,,,Grand Marshal,the Flamboyant
-,,,,Great,the Fool
-,,,,Groundskeeper,the Foolish
-,,,,Grunt,the Fortress
-,,,,Guard,the Foul
-,,,,Guard Captain,the Freak
-,,,,Guardian,the Fugitive
-,,,,Guide,the Funny
-,,,,Guru,the Furious
-,,,,Head Chef,the Furious
-,,,,Heir,the Gay
-,,,,Helper,the Generous
-,,,,High Warlord,the Gimpy
-,,,,Ice Keeper,the Glutton
-,,,,Innkeeper,the Golden
-,,,,Inspector,the Gray
-,,,,Interpreter,the Green
-,,,,Interrogator,the Green Hand
-,,,,Jailer,the Hammer
-,,,,Judge,the Hand
-,,,,Junior Officer,the Hand of the King
-,,,,Keeper,the Happy
-,,,,Knight,the Hated
-,,,,Knight-Captain,the Hater
-,,,,Knight-Champion,the Hideous
-,,,,Knight-Lieutenant,the High
-,,,,Leader,the Honorable
-,,,,Legionnaire,the Horrible
-,,,,Liberator,the Horrific
-,,,,Lieutenant Commander,the Hot
-,,,,Lieutenant General,the Huge
-,,,,Light Keeper,the Hysterical
-,,,,Little,the Impure
-,,,,Mad,the Incomprehensible
-,,,,Maestro,the Indecent
-,,,,Magistrate,the Infamous
-,,,,Major,the Insensitive
-,,,,Marshal,the Iron
-,,,,Marshall,the Jester
-,,,,Master Sergeant,the Jolly
-,,,,Medic,the Jumpy
-,,,,Mercenary,the Key
-,,,,Merchant,the Kind
-,,,,Miner,the Lantern
-,,,,Minstrel,the Lazy
-,,,,Mountaineer,the Learned
-,,,,Musician,the Little
-,,,,Nurse,the Lonely
-,,,,Officer,the Loser
-,,,,Oracle,the Loud
-,,,,Overlord,the Loved
-,,,,Paladin,the Lover
-,,,,Pathfinder,the Low
-,,,,Patron,the Lucky
-,,,,Player,the Mad
-,,,,Praetor,the Magnificent
-,,,,Premier,the Maker
-,,,,President,the Malignant
-,,,,Priest,the Meek
-,,,,Prime,the Merciless
-,,,,Prime Minister,the Mistake
-,,,,Prisoner,the Moon
-,,,,Private,the Muse
-,,,,Profesor,the Mute
-,,,,Professional,the Nice
-,,,,Prostitue,the Normal
-,,,,Protector,the Obnoxious
-,,,,Quartermaster,the Obscene
-,,,,Raider,the Obvious
-,,,,Ranger,the Old
-,,,,Regent,the One
-,,,,Registrar,the Open
-,,,,Representative,the Oppressed
-,,,,Rogue,the Oppressor
-,,,,Sailor,the Ordinary
-,,,,Sapper,the Painful
-,,,,Scout,the Painless
-,,,,Scribe,the Paranoid
-,,,,Secretary,the Peculiar
-,,,,Senator,the Precise
-,,,,Senior Sergeant,the Proud
-,,,,Sentinel,the Pure
-,,,,Sentry,the Queer
-,,,,Sergeant,the Quick
-,,,,Sergeant Major,the Quiet
-,,,,Servant,the Raging
-,,,,Shopkeeper,the Random
-,,,,Sissy,the Rash
-,,,,Soldier,the Rebel
-,,,,Solicitor,the Red
-,,,,Speaker,the Red Hand
-,,,,Special Agent,the Relentless
-,,,,Standard,the Repulsive
-,,,,Stone Guard,the Revolting
-,,,,Storyteller,the Romantic
-,,,,Student,the Rude
-,,,,Superintendent,the Runt
-,,,,Supervisor,the Sad
-,,,,Teacher,the Scared
-,,,,Theorist,the Screwdriver
-,,,,Tinker,the Second
-,,,,Torturer,the Sensitive
-,,,,Trainee,the Sharp
-,,,,Trainer,the Shattered
-,,,,Treasurer,the Shield
-,,,,Vanguard,the Shinning
-,,,,Victor,the Short
-,,,,Warden,the Shy
-,,,,Warlord,the Silly
-,,,,Watcher,the Silver
-,,,,Zed,the Skinny
+Archon,the Brotherly,Aunt,the Ample,Adjutant,II
+Arci Dux,the Eunuch,Babu,the Beautiful,Adventurer,III
+Baba,the Fallen Hero,Baroness,the Bitch,Advocate,IV
+Baron,the Fancy Lad,Concubine,the Bitchy,Agent,IX
+Bro,the Fatherly,Countess,the Black Widow,Aide,Junior
+Brother,the Gigalo,Courtesan,the Bride,Air Keeper,of the Air
+Caliph,the Groom,Dame,the Crone,Alpha,of the Dark
+Count,the Handsome,Damsel,the Doll,Ambassador,of the Earth
+Courtier,the Hero,Dancer,the Fallen Heroine,Apothecary,of the East
+Daddy,the Hunk,Darling,the Fancy Lass,Archaeologist,of the Fire
+Dude,the Hunky,Dutchess,the Flower,Archenemy,of the Ice
+Duke,the Hunter,Empress,the Glamorous,Architect,of the Light
+Dux,the Kid,Enchantress,the Hag,Artist,of the North
+Emperor,the Lad,Gentlewoman,the Harlot,Assistant,of the South
+Father,the Lion,Grand Duchess,the Heroine,Astrologer,of the West
+Gentleman,the Macho,Grandmother,the Huntress,Attendant,Senior
+Grand Duke,the Man,Great-Grandmother,the Lass,Bailiff,the Able
+Grandfather,the Manly,Lady,the Lioness,Banker,the Absentminded
+Great-Grandfather,the Old Hero,Madam,the Lovely,Big,the Abstract
+Guy,the Rock,Maid,the Motherly,Blood Guard,the Absurd
+Imperator,the Stone,Maiden,the Old Heroine,Boss,the Abusive
+King,the Stud,Mama,the Perky,Bouncer,the Accommodating
+King Regent,the Tiger,Marquise,the Pert,Brave,the Accurate
+Mac,the Young Hero,Matriarch,the Pink,Brigadier,the Addicted
+Magnus Dux,the Young Lad,Matron,the Pretty,Brigand,the Adventurous
+Mak,,Miss,the Ravishing,Cadet,the Affectionate
+Marquis,,Missus,the Rose,Cannoneer,the Aggressive
+Master,,Mistress,the Sexy,Captain,the Airhead
+Max,,Mother,the Sisterly,Captive,the Alcoholic
+Mister,,Nanny,the Tigress,Captor,the Alert
+Nobleman,,Noblewoman,the Vixen,Cartographer,the Alien
+Old Man,,Old Lady,the Wench,Centurion,the Alive
+Papa,,Princess,the White Widow,Chairman,the Aloof
+Patriarch,,Princess Regent,the Whore,Champion,the Ambitious
+Prince,,Prophetess,the Womanly,Chancellor,the Amiable
+Prince Regent,,Queen,the Young Heroine,Chaperon,the Amputee
+Proconsul,,Queen Regent,the Young Lass,Chef,the Analytical
+Prophet,,Shieldmaiden,,Chief,the Angry
+Rex,,Sister,,Clerk,the Annoyed
+Sir,,Squiress,,Coach,the Annoying
+Squire,,Valkyrie,,Coder,the Antisocial
+Suitor,,Viscountess,,Collector,the Anxious
+Uncle,,Widow,,Commander,the Apathetic
+Viscount,,,,Conductor,the Argumentative
+,,,,Conqueror,the Aristocratic
+,,,,Consort,the Arrogant
+,,,,Contender,the Articulate
+,,,,Corporal,the Artistic
+,,,,Counselor,the Ashamed
+,,,,Craftsman,the Aspiring
+,,,,Crazy,the Assertive
+,,,,Crusader,the Athletic
+,,,,Cultist,the Authoritarian
+,,,,Curator,the Available
+,,,,Dac,the Avenger
+,,,,Dak,the Average
+,,,,Dark Keeper,the Aware
+,,,,Dax,the Awesome
+,,,,Deckhand,the Awkward
+,,,,Designer,the Axe
+,,,,Dictator,the Bad
+,,,,Diplomat,the Balanced
+,,,,Director,the Barren
+,,,,Disciple,the Bashful
+,,,,Dishwasher,the Beatnik
+,,,,Doctor,the Befouler
+,,,,Duelest,the Believer
+,,,,Dungeon Master,the Belligerent
+,,,,Dungeoneer,the Bender
+,,,,Earth Keeper,the Benefactor
+,,,,Editor,the Bent
+,,,,Elder,the Big-headed
+,,,,Elite,the Big-hearted
+,,,,Enemy,the Bigoted
+,,,,Engineer,the Bitchy
+,,,,Envoy,the Bitter
+,,,,Escort,the Black
+,,,,Executioner,the Black Hand
+,,,,Executor,the Bland
+,,,,Exhibitor,the Blasted
+,,,,Explorer,the Bloody
+,,,,Farmer,the Blue
+,,,,Fellow,the Blue Hand
+,,,,Field Marshal,the Blunt
+,,,,Fire Keeper,the Boastful
+,,,,First Sergeant,the Boisterous
+,,,,Foreman,the Bold
+,,,,Friend,the Boring
+,,,,Gatekeeper,the Bossy
+,,,,General,the Brave
+,,,,Geologist,the Bright
+,,,,Gladiator,the Broken
+,,,,Governor,the Bronze
+,,,,Grand Marshal,the Brutal
+,,,,Great,the Bully
+,,,,Groundskeeper,the Busy
+,,,,Grunt,the Callous
+,,,,Guard,the Calm
+,,,,Guard Captain,the Cannon
+,,,,Guardian,the Cantankerous
+,,,,Guide,the Capable
+,,,,Guru,the Careless
+,,,,Head Chef,the Casual
+,,,,Heir,the Caustic
+,,,,Helper,the Cautious
+,,,,High Warlord,the Charismatic
+,,,,Ice Keeper,the Charitable
+,,,,Innkeeper,the Chaste
+,,,,Inspector,the Cheap
+,,,,Interpreter,the Cheerful
+,,,,Interrogator,the Childish
+,,,,Jailer,the Claw
+,,,,Judge,the Clean
+,,,,Junior Officer,the Clear
+,,,,Keeper,the Clever
+,,,,Knight,the Closed
+,,,,Knight-Captain,the Clumsy
+,,,,Knight-Champion,the Cold
+,,,,Knight-Lieutenant,the Comedian
+,,,,Lawyer,the Committed
+,,,,Leader,the Compassionate
+,,,,Legionnaire,the Competitive
+,,,,Liberator,the Compulsive
+,,,,Lieutenant Commander,the Con
+,,,,Lieutenant General,the Conceited
+,,,,Light Keeper,the Conceited
+,,,,Little,the Concerned
+,,,,Mad,the Concise
+,,,,Maestro,the Condescending
+,,,,Magistrate,the Confident
+,,,,Major,the Conformist
+,,,,Marshal,the Confused
+,,,,Marshall,the Conservative
+,,,,Master Sergeant,the Considerate
+,,,,Max-Boss,the Content
+,,,,Mayor,the Conventional
+,,,,Medic,the Convict
+,,,,Mercenary,the Cook
+,,,,Merchant,the Cool
+,,,,Mid-Boss,the Cooperative
+,,,,Mid-Villain,the Copper
+,,,,Min-Boss,the Corrupt
+,,,,Miner,the Courageous
+,,,,Minion,the Courteous
+,,,,Minstrel,the Cripple
+,,,,Mortician,the Crippled
+,,,,Mountaineer,the Crude
+,,,,Musician,the Cruel
+,,,,Nurse,the Cunning
+,,,,Officer,the Curious
+,,,,Old,the Cursed
+,,,,Oracle,the Cynical
+,,,,Overlord,the Dainty
+,,,,Paladin,the Daring
+,,,,Pathfinder,the Dark
+,,,,Patron,the Dead
+,,,,Player,the Deadly
+,,,,Poet,the Deceitful
+,,,,Poor,the Decisive
+,,,,Praetor,the Defensive
+,,,,Premier,the Defiant
+,,,,President,the Delicate
+,,,,Priest,the Deluded
+,,,,Prime,the Demanding
+,,,,Prime Minister,the Demon
+,,,,Prisoner,the Dependable
+,,,,Private,the Dependent
+,,,,Profesor,the Depraved
+,,,,Professional,the Depressed
+,,,,Prostitue,the Dervish
+,,,,Protector,the Destroyer
+,,,,Quartermaster,the Destructive
+,,,,Raider,the Detached
+,,,,Ranger,the Determined
+,,,,Regent,the Devious
+,,,,Registrar,the Diligent
+,,,,Representative,the Diplomatic
+,,,,Rogue,the Direct
+,,,,Sailor,the Dirk
+,,,,Sapper,the Dirty
+,,,,Scout,the Disagreeable
+,,,,Scribe,the Discerning
+,,,,Secretary,the Discouraged
+,,,,Senator,the Discreet
+,,,,Senior Sergeant,the Disfigured
+,,,,Sentinel,the Dishonest
+,,,,Sentry,the Disturbed
+,,,,Sergeant,the Docile
+,,,,Sergeant Major,the Doomed
+,,,,Servant,the Dramatic
+,,,,Shopkeeper,the Dreaded
+,,,,Sissy,the Dreamer
+,,,,Slave,the Drifter
+,,,,Soldier,the Drunk
+,,,,Solicitor,the Dry
+,,,,Speaker,the Dull
+,,,,Special Agent,the Dumb
+,,,,Standard,the Dummy
+,,,,Stone Guard,the Dynamic
+,,,,Storyteller,the Eccentric
+,,,,Student,the Eclectic
+,,,,Superintendent,the Effective
+,,,,Supervisor,the Egotistical
+,,,,Teacher,the Enchanted
+,,,,Theorist,the Energetic
+,,,,Tinker,the Enlightened
+,,,,Torturer,the Enthusiastic
+,,,,Trainee,the Epic
+,,,,Trainer,the Evil
+,,,,Treasurer,the Excellent
+,,,,Vanguard,the Excited
+,,,,Victor,the Expert
+,,,,Warden,the Extraordinary
+,,,,Warlord,the Extravagant
+,,,,Watcher,the Exuberant
+,,,,Young,the Fair
+,,,,Zed,the Fake
+,,,,,the Fallen
+,,,,,the Famous
+,,,,,the Fanatic
+,,,,,the Fancy
+,,,,,the Fascinating
+,,,,,the Fast
+,,,,,the Fat
+,,,,,the Feared
+,,,,,the Fearful
+,,,,,the Fearless
+,,,,,the Fertile
+,,,,,the Fickle
+,,,,,the Fighter
+,,,,,the First
+,,,,,the Fist
+,,,,,the Fixed
+,,,,,the Fixer
+,,,,,the Flamboyant
+,,,,,the Focused
+,,,,,the Fool
+,,,,,the Foolish
+,,,,,the Forgetful
+,,,,,the Formal
+,,,,,the Fortress
+,,,,,the Foul
+,,,,,the Freak
+,,,,,the Freaky
+,,,,,the Friendly
+,,,,,the Frugal
+,,,,,the Frustrated
+,,,,,the Fugitive
+,,,,,the Funny
+,,,,,the Furious
+,,,,,the Furious
+,,,,,the Gallant
+,,,,,the Gambler
+,,,,,the Gay
+,,,,,the Generous
+,,,,,the Genius
+,,,,,the Gimpy
+,,,,,the Glutton
+,,,,,the Golden
+,,,,,the Good
+,,,,,the Gossip
+,,,,,the Graceful
+,,,,,the Gray
+,,,,,the Great Tyrant
+,,,,,the Greedy
+,,,,,the Green
+,,,,,the Green Hand
+,,,,,the Grotesque
+,,,,,the Grouchy
+,,,,,the Grubby
+,,,,,the Grumbler
+,,,,,the Gullible
+,,,,,the Halberd
+,,,,,the Hammer
+,,,,,the Hand
+,,,,,the Hand of the King
+,,,,,the Happy
+,,,,,the Hard
+,,,,,the Hated
+,,,,,the Hater
+,,,,,the Healthy
+,,,,,the Heartbroken
+,,,,,the Helpful
+,,,,,the Helpless
+,,,,,the Hideous
+,,,,,the High
+,,,,,the Hippy
+,,,,,the Holy
+,,,,,the Honest
+,,,,,the Honorable
+,,,,,the Horrible
+,,,,,the Horrific
+,,,,,the Hostile
+,,,,,the Hot
+,,,,,the Huge
+,,,,,the Humble
+,,,,,the Humorless
+,,,,,the Humorous
+,,,,,the Hypochondriac
+,,,,,the Hysterical
+,,,,,the Ignorant
+,,,,,the Illiterate
+,,,,,the Impatient
+,,,,,the Imposter
+,,,,,the Impure
+,,,,,the Incomprehensible
+,,,,,the Indecent
+,,,,,the Indirect
+,,,,,the Infamous
+,,,,,the Insensitive
+,,,,,the Iron
+,,,,,the Jester
+,,,,,the Joker
+,,,,,the Jolly
+,,,,,the Jumpy
+,,,,,the Key
+,,,,,the Kind
+,,,,,the Lance
+,,,,,the Lantern
+,,,,,the Lazy
+,,,,,the Learned
+,,,,,the Legendary
+,,,,,the Liar
+,,,,,the Light
+,,,,,the Little
+,,,,,the Logical
+,,,,,the Lonely
+,,,,,the Loner
+,,,,,the Loser
+,,,,,the Loud
+,,,,,the Loved
+,,,,,the Lover
+,,,,,the Low
+,,,,,the Loyal
+,,,,,the Lucky
+,,,,,the Lunatic
+,,,,,the Mad
+,,,,,the Magnificent
+,,,,,the Maker
+,,,,,the Malicious
+,,,,,the Malignant
+,,,,,the Maniac
+,,,,,the Manic
+,,,,,the Masochist
+,,,,,the Masochistic
+,,,,,the Masterful
+,,,,,the Mean
+,,,,,the Mediocre
+,,,,,the Meek
+,,,,,the Melodramatic
+,,,,,the Merciless
+,,,,,the Messy
+,,,,,the Mischievous
+,,,,,the Mistake
+,,,,,the Modest
+,,,,,the Moody
+,,,,,the Moon
+,,,,,the Morbid
+,,,,,the Motivated
+,,,,,the Mundane
+,,,,,the Muse
+,,,,,the Musical
+,,,,,the Mute
+,,,,,the Mysterious
+,,,,,the Naïve
+,,,,,the Neat
+,,,,,the Negative
+,,,,,the Nervous
+,,,,,the Neurotic
+,,,,,the Neutral
+,,,,,the Nice
+,,,,,the Normal
+,,,,,the Obedient
+,,,,,the Objective
+,,,,,the Obnoxious
+,,,,,the Obscene
+,,,,,the Observant
+,,,,,the Obsessed
+,,,,,the Obsessive
+,,,,,the Obstinate
+,,,,,the Obvious
+,,,,,the Offensive
+,,,,,the Old
+,,,,,the One
+,,,,,the Open
+,,,,,the Oppressed
+,,,,,the Oppressor
+,,,,,the Optimistic
+,,,,,the Ordinary
+,,,,,the Outlaw
+,,,,,the Painful
+,,,,,the Painless
+,,,,,the Paranoid
+,,,,,the Partisan
+,,,,,the Passionate
+,,,,,the Passive
+,,,,,the Pathetic
+,,,,,the Patient
+,,,,,the Peculiar
+,,,,,the Perceptive
+,,,,,the Perfectionist
+,,,,,the Perky
+,,,,,the Pessimistic
+,,,,,the Pious
+,,,,,the Pitiful
+,,,,,the Plain
+,,,,,the Positive
+,,,,,the Precise
+,,,,,the Presumptuous
+,,,,,the Pretentious
+,,,,,the Prodigy
+,,,,,the Proud
+,,,,,the Psychotic
+,,,,,the Pure
+,,,,,the Queer
+,,,,,the Quick
+,,,,,the Quiet
+,,,,,the Radical
+,,,,,the Raging
+,,,,,the Random
+,,,,,the Rash
+,,,,,the Rational
+,,,,,the Razor
+,,,,,the Realistic
+,,,,,the Rebel
+,,,,,the Reckless
+,,,,,the Red
+,,,,,the Red Hand
+,,,,,the Redundant
+,,,,,the Relentless
+,,,,,the Reliable
+,,,,,the Repulsive
+,,,,,the Resentful
+,,,,,the Resilient
+,,,,,the Revolting
+,,,,,the Righteous
+,,,,,the Rigid
+,,,,,the Rival
+,,,,,the Romantic
+,,,,,the Rude
+,,,,,the Runt
+,,,,,the Ruthless
+,,,,,the Sad
+,,,,,the Sadistic
+,,,,,the Sarcastic
+,,,,,the Scared
+,,,,,the Scarred
+,,,,,the Screwdriver
+,,,,,the Second
+,,,,,the Selfish
+,,,,,the Sensible
+,,,,,the Sensitive
+,,,,,the Serious
+,,,,,the Sharp
+,,,,,the Shattered
+,,,,,the Shield
+,,,,,the Shinning
+,,,,,the Short
+,,,,,the Shy
+,,,,,the Silly
+,,,,,the Silver
+,,,,,the Simple
+,,,,,the Skeptical
+,,,,,the Skillful
+,,,,,the Skinny
 ,,,,,the Slayer
 ,,,,,the Slow
+,,,,,the Smart
 ,,,,,the Smelly
+,,,,,the Smug
+,,,,,the Snob
+,,,,,the Soft
 ,,,,,the Solemn
 ,,,,,the Sorry
+,,,,,the Sour
+,,,,,the Stable
 ,,,,,the Standard
 ,,,,,the Star
 ,,,,,the Steel
@@ -212,27 +484,51 @@ Viscount,,,,Conqueror,the Claw
 ,,,,,the Stranger
 ,,,,,the Strong
 ,,,,,the Stupid
+,,,,,the Suicidal
+,,,,,the Superficial
+,,,,,the Superstitious
+,,,,,the Survivor
 ,,,,,the Swift
 ,,,,,the Sword
+,,,,,the Talented
 ,,,,,the Tall
 ,,,,,the Temperate
 ,,,,,the Thief
 ,,,,,the Third
 ,,,,,the Three
+,,,,,the Timid
+,,,,,the Tireless
+,,,,,the Tough
 ,,,,,the Tower
 ,,,,,the Treacherous
+,,,,,the Trusting
 ,,,,,the Two
+,,,,,the Tyrant
 ,,,,,the Ugly
 ,,,,,the Unbeliever
+,,,,,the Unhappy
+,,,,,the Unhealthy
 ,,,,,the Unified
 ,,,,,the Unknown
 ,,,,,the Unlucky
 ,,,,,the Unremarkable
+,,,,,the Unscrupulous
+,,,,,the Unselfish
 ,,,,,the Unsightly
+,,,,,the Unstable
+,,,,,the Uptight
+,,,,,the Vain
+,,,,,the Vibrant
 ,,,,,the Vicious
 ,,,,,the Victor
 ,,,,,the Vile
+,,,,,the Villain
+,,,,,the Violent
 ,,,,,the Virgin
+,,,,,the Visionary
+,,,,,the Volatile
+,,,,,the Vulgar
+,,,,,the Wacky
 ,,,,,the Waker
 ,,,,,the Wall
 ,,,,,the Wanderer
@@ -240,17 +536,21 @@ Viscount,,,,Conqueror,the Claw
 ,,,,,the Wasted
 ,,,,,the Watcher
 ,,,,,the Weak
+,,,,,the Wealthy
 ,,,,,the Weed
 ,,,,,the Weird
 ,,,,,the Wet
 ,,,,,the White
 ,,,,,the White Hand
+,,,,,the Wild
 ,,,,,the Winner
 ,,,,,the Wise
 ,,,,,the Wonderful
+,,,,,the Worthless
 ,,,,,the Wrench
 ,,,,,the Yellow
 ,,,,,the Young
+,,,,,the Zealot
 ,,,,,the Zed
 ,,,,,V
 ,,,,,VI
