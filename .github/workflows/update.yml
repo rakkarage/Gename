@@ -17,8 +17,8 @@ jobs:
       - run: |
           apt-get update && apt-get install -y curl
           curl -L -o ./${{matrix.name}} ${{matrix.url}}
-  finish:
-    needs: pull
+  pull:
+    needs: update
     runs-on: ubuntu-latest
     steps:
       - uses: actions/upload-artifact@v3
