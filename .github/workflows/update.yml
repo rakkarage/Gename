@@ -1,33 +1,29 @@
 on:
   workflow_dispatch:
+env:
+  NAME1: Name.txt
+  FILE1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=0&single=true&output=csv"
+  NAME2: Syllable.txt
+  FILE2: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=326391601&single=true&output=csv"
+  NAME3: Title.txt
+  FILE3: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=308678360&single=true&output=csv"
 jobs:
   update:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        include:
-          - name: Name.txt
-            url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=0&single=true&output=csv"
-          - name: Syllable.txt
-            url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=326391601&single=true&output=csv"
-          - name: Title.txt
-            url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=308678360&single=true&output=csv"
     steps:
       - uses: actions/checkout@v2
       - run: |
           apt-get update && apt-get install -y curl
-          curl -L -o ./${{matrix.name}} ${{matrix.url}}
-  pull:
-    needs: update
-    runs-on: ubuntu-latest
-    steps:
+          curl -L -o ./$NAME1 $FILE1
+          curl -L -o ./$NAME2 $FILE2
+          curl -L -o ./$NAME3 $FILE3
       - uses: actions/upload-artifact@v3
         with:
           name: data
           path: |
-            Name.txt
-            Syllable.txt
-            Title.txt
+            $FILE1
+            $FILE2
+            $FILE3
       - uses: peter-evans/create-pull-request@v3
         with:
           title: Update Data
