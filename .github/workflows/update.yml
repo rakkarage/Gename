@@ -17,3 +17,13 @@ jobs:
         with:
           http_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIDYaSPXi7AKRk-CCkIn9l6se8Qnzl0XJCSFOndKL0rBwjjT9JHBik5Zv8r9WztGjQh_O7VFEnRl-W/pub?gid=308678360&single=true&output=csv"
           downloaded_filename: Title.txt
+      - uses: actions/upload-artifact@v3
+          with: data
+          path: |
+            Name.txt
+            Syllable.txt
+            Title.txt
+      - uses: peter-evans/create-pull-request@v3
+        with:
+          title: Update Data
+          branch-suffix: timestamp
