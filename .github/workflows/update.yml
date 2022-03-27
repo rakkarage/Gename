@@ -22,11 +22,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/upload-artifact@v3
-          with: data
-          path: |
-            Name.txt
-            Syllable.txt
-            Title.txt
+        with: data
+        path: |
+          Name.txt
+          Syllable.txt
+          Title.txt
       - uses: peter-evans/create-pull-request@v3
         with:
           title: Update Data
