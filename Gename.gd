@@ -25,8 +25,8 @@ var _rng := RandomNumberGenerator.new()
 
 func _init() -> void:
 	_rng.randomize()
-	var file := File.new()
-	if file.open(_namePath, file.READ) != OK:
+	var file := FileAccess.open(_namePath, FileAccess.READ)
+	if !file:
 		print_debug(_error + _namePath)
 		return
 	while !file.eof_reached():
@@ -45,7 +45,8 @@ func _init() -> void:
 			if value != "":
 				_data.neutral.name.append(value)
 	file.close()
-	if file.open(_syllablePath, file.READ) != OK:
+	file = FileAccess.open(_syllablePath, FileAccess.READ)
+	if !file:
 		print_debug(_error + _syllablePath)
 		return
 	while !file.eof_reached():
@@ -88,7 +89,8 @@ func _init() -> void:
 			if value != "":
 				_data.neutral.finish.append(value)
 	file.close()
-	if file.open(_titlePath, file.READ) != OK:
+	file = FileAccess.open(_titlePath, file.READ)
+	if !file:
 		print_debug(_error + _titlePath)
 		return
 	while !file.eof_reached():
